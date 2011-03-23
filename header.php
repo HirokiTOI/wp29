@@ -29,15 +29,15 @@ bloginfo('name'); ?></title>
     <meta property="og:type" content="article" />
     <meta property="og:url" content="'; the_permalink(); echo '" />';
     else: echo '
-    <meta property="og:title" content="æº–äºŒç´š.jp" />
+    <meta property="og:title" content="Hioki\'s Weblog" />
     <meta property="og:type" content="blog" />
-    <meta property="og:description" content="One of implementations of june29" />
-    <meta property="og:url" content="http://june29.jp/" />';
+    <meta property="og:description" content="ŠÃ‚Á‚½‚ê‚Ì‚Ð‚¨‚«‚ª‘‚«‚Â‚Ã‚éXV•s’èŠú‚Ì“ú‹L" />
+    <meta property="og:url" content="http://hiokota.com/hioki/" />';
     endif; ?>
 
-    <meta property="og:site_name" content="æº–äºŒç´š.jp" />
-    <meta property="og:image" content="http://june29.jp/wp-content/themes/wp29/images/face.jpg" />
-    <meta property="fb:admins" content="june29.jp" />
+    <meta property="og:site_name" content="Hioki's Weblog" />
+	<!-- ‚±‚±•ÒW<meta property="og:image" content="http://june29.jp/wp-content/themes/wp29/images/face.jpg" />@-->
+    <meta property="fb:admins" content="hiokota.com" />
 
     <?php wp_head(); ?>
 
@@ -56,13 +56,13 @@ bloginfo('name'); ?></title>
     <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
     <script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
 
-    <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/javascripts/jquery-1.4.2.min.js"></script>
-    <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/javascripts/playground.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/javascripts/jquery-1.4.2.min.js"></script>
+	<!-- <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/javascripts/playground.js"></script> -->
     <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/javascripts/feedbacks.js"></script>
   </head>
 
   <body>
-    <div id="wrapper">
+  <div id="wrapper">
       <div id="header">
         <img id="face" src="<?php bloginfo('template_directory'); ?>/images/face.jpg" width="128" height="128" alt="Face" />
         <h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
