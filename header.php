@@ -31,12 +31,12 @@ bloginfo('name'); ?></title>
     else: echo '
     <meta property="og:title" content="Hioki\'s Weblog" />
     <meta property="og:type" content="blog" />
-    <meta property="og:description" content="甘ったれのひおきが書きつづる更新不定期の日記" />
+    <meta property="og:description" content="都井ひおきの妄想" />
     <meta property="og:url" content="http://hiokota.com/hioki/" />';
     endif; ?>
 
     <meta property="og:site_name" content="Hioki's Weblog" />
-	<!-- ここ編集<meta property="og:image" content="http://june29.jp/wp-content/themes/wp29/images/face.jpg" />　-->
+	<meta property="og:image" content="http://hiokota.com/hioki/wp-content/themes/wp29/images/face.jpg" />
     <meta property="fb:admins" content="hiokota.com" />
 
     <?php wp_head(); ?>
@@ -63,18 +63,24 @@ bloginfo('name'); ?></title>
 
   <body>
   <div id="wrapper">
-      <div id="header">
-        <img id="face" src="<?php bloginfo('template_directory'); ?>/images/face.jpg" width="128" height="128" alt="Face" />
-        <h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
-        <div id="description">One of implementations of june29, <a href="/about/" title="About">and more detail...</a></div>
+	  <div id="header">
+		<span id="face" style="background: url(<?php bloginfo('template_directory'); ?>/images/face.jpg) no-repeat center center; width="128" height="128">
+			<img src="<?php bloginfo('template_directory'); ?>/images/face.jpg" width="128" height="128" alt="Face" style="opacity: 0;" />
+		</span>
+		<h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
+		<div id="description">
+			<?php echo bloginfo('description'); ?>    /    
+			<!-- AboutページのURLを指定 -->
+			<a href="/wordpress/category/about/" title="About">About me.</a>
+		</div>
         <?php include (TEMPLATEPATH . '/searchform.php'); ?>
         <ul id="social-links">
-          <li id="social-link-twitter"   class="social-link"><a href="http://twitter.com/june29"           title="">Twitter</a></li>
-          <li id="social-link-tumblr"    class="social-link"><a href="http://june29.tumblr.com/"           title="">Tumblr</a></li>
-          <li id="social-link-facebook"  class="social-link"><a href="http://www.facebook.com/june29.jp"   title="">Facebook</a></li>
-          <li id="social-link-flickr"    class="social-link"><a href="http://www.flickr.com/photos/june29" title="">Flickr</a></li>
-          <li id="social-link-delicious" class="social-link"><a href="http://delicious.com/june29"         title="">Delicious</a></li>
-          <li id="social-link-github"    class="social-link"><a href="http://github.com/june29"            title="">GitHub</a></li>
-          <li id="social-link-lastfm"    class="social-link"><a href="http://www.last.fm/user/june29"      title="">Last.fm</a></li>
+          <li id="social-link-twitter"   class="social-link"><a href="http://twitter.com/noize_hioki"           title="">Twitter</a></li>
+		  <li id="social-link-tumblr"    class="social-link"><a href="http://hioki.tumblr.com/"           title="">Tumblr</a></li>
+          <li id="social-link-facebook"  class="social-link"><a href="http://www.facebook.com/hiroki.toi"   title="">Facebook</a></li>
+		  <!-- <li id="social-link-flickr"    class="social-link"><a href="http://www.flickr.com/photos/june29" title="">Flickr</a></li> -->
+		  <!-- <li id="social-link-delicious" class="social-link"><a href="http://delicious.com/june29"         title="">Delicious</a></li> -->
+          <li id="social-link-github"    class="social-link"><a href="http://github.com/HirokiTOI"            title="">GitHub</a></li>
+		  <!-- <li id="social-link-lastfm"    class="social-link"><a href="http://www.last.fm/user/june29"      title="">Last.fm</a></li> -->
         </ul>
       </div>
