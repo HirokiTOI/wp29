@@ -68,10 +68,12 @@ bloginfo('name'); ?></title>
 			<img src="<?php bloginfo('template_directory'); ?>/images/face.jpg" width="128" height="128" alt="Face" style="opacity: 0;" />
 		</span>
 		<h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
-		<div id="description">
-			<?php echo bloginfo('description'); ?>    /    
+		<div id="about">
 			<!-- AboutページのURLを指定 -->
-			<a href="/wordpress/category/about/" title="About">About me.</a>
+			<a href="/hioki/about/" title="About">About me.</a>
+		</div>
+		<div id="description">
+			<?php echo bloginfo('description'); ?>
 		</div>
         <?php include (TEMPLATEPATH . '/searchform.php'); ?>
         <ul id="social-links">

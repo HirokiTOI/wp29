@@ -16,7 +16,7 @@ h1 a {
 
 h1 a:hover {
   text-decoration: underline;
-  color: #ffff00;
+  
 }
 
 #wrapper {
@@ -44,8 +44,8 @@ h1 a:hover {
   margin-right: 10px
   padding: 0px;
   display: inline-block;
-/*  border: solid 1px #000;*/
-  overflow: hidden;*/
+/*  border: solid 1px #000;
+  overflow: hidden; */
   -webkit-border-top-left-radius: 30px;
   -webkit-border-bottom-left-radius: 30px;
   -moz-border-radius-topleft: 30px;
@@ -54,7 +54,7 @@ h1 a:hover {
   border-bottom-left-radius: 30px; 
 /*  -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, .4);
   -moz-box-shadow: 0 0px 0px rgba(0, 0, 0, .4);
-  box-shadow: 0 0px 0px rgba(0, 0, 0, .4); */
+  box-shadow: 0 0px 0px rgba(0, 0, 0, .4);  */
 }
 
 #header h1 {
@@ -93,17 +93,6 @@ h1 a:hover {
   border-bottom-right-radius: 5px; 
 }
 
-#header #description #about {
-	/*text-align: right */
-}
-
-#header #search-form {
-  /*position: absolute;
-  z-index:1;
-  top: 38px;
-  right: 45px;*/
-}
-
 #header #search-form #s {
   position: absolute;
   z-index:1;
@@ -125,25 +114,34 @@ h1 a:hover {
 }
 
 #header #search-form #search-submit {
-  /*font-size: 100%;
-  padding: 3px;*/
   width: 16px;
   height: 16px;
   position:absolute ;
   z-index:2;
   top: 57px;
   right: 130px;
-
 }
 
-#description a {
-  color: #aaa;
-  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
+#about a {
+  position: absolute;
+  z-index:1;
+  top: 15px;
+  right: 300px;
+
+  -moz-border-radius: 30px;
+  -webkit-border-top-right-radius: 30px;
+  -webkit-border-bottom-right-radius: 5px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 5px;
+  background:#000;
+  color:#aaa;
+  padding: 2px;
+  
   text-decoration: none;
 }
 
-#description a:hover {
-  color: #ffff00;
+#about a:hover {
+  color: #fff;
 }
 
 #social-links {
@@ -176,7 +174,7 @@ h1 a:hover {
 }
 
 #social-links .social-link a:hover {
-  color: #ffff00;
+  color: #fff;
 }
 
 #social-link-twitter {
@@ -208,15 +206,10 @@ h1 a:hover {
 }
 
 #content {
-  /* position:absolute;  
-  right:0; */ 
   margin-top:5px;
   margin-bottom:20px;
   margin-left:0px;
-  padding: 15px 45px 500px 45px;
-  /*width: 800px;
-  min-width:400px; */
-  /* background: -webkit-gradient(linear, left top, left bottom, from(#2c4762), to(#3a5772)); */
+  padding: 15px 45px 500px 15px;
   background-color: #000;
   -webkit-border-top-right-radius: 100px;
   -webkit-border-bottom-right-radius: 600px;
@@ -237,49 +230,52 @@ h1 a:hover {
 }
 
 .post {
-  margin: 10px 0;
+  margin: 10px;
   padding: 10px 40px 30px 40px;
-  border-bottom: 2px solid #bbb;
   background-color: #eee;
   -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
+  -moz-border-radius: 30px;
   border-radius: 10px;
   position: relative;
 }
 
-ul.post-date {
+.post-date {
+  position: absolute;
+/*  top: 20px; */
+  right: 20px;
+}
+
+.post-date span  {
+  color: #eee;
+  text-decoration: none;
   padding: 5px 10px;
-  border-bottom: 1px solid #333;
-  border-right: 1px solid #999;
-  background-color: #ececec;
-  background: -webkit-gradient(linear, left top, left bottom, from(#b7b7b7), to(#ececec));
-  background: -moz-linear-gradient(top, #b7b7b7, #ececec);
-  -webkit-border-top-left-radius: 5px;
-  -webkit-border-bottom-left-radius: 5px;
-  -moz-border-radius-topleft: 5px;
-  -moz-border-radius-bottomleft: 5px;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
+  background-color: #000;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
   list-style-type: none;
   text-align: center;
-  width: 40px;
-  position: absolute;
-  top: 20px;
-  left: -35px;
 }
 
-ul.post-date a {
-  color: #666;
+.post-date a  {
+  color: #eee;
   text-decoration: none;
+  padding: 5px 10px;
+  background-color: #000;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  list-style-type: none;
+  text-align: center;
 }
 
-ul.post-date a:hover {
+.post-date a:hover {
   text-decoration: underline;
 }
 
 h2 a {
   color: #333;
-  font-size: 130%;
+  font-size: 120%;
   text-decoration: none;
 }
 
@@ -355,6 +351,10 @@ h2 a:hover {
   margin: 10px 0;
   padding: 20px;
   background-color: #eee;
+}
+
+.entry-content img {
+	max-width:710px;
 }
 
 h3 {
@@ -434,6 +434,7 @@ h3, h4 {
 
 #feedbacks #facebook-comments {
   margin-bottom: 20px;
+  
 }
 
 #feedbacks .comment-list {

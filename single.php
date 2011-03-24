@@ -10,9 +10,9 @@
   </div>
 
   <?php include (TEMPLATEPATH . '/entry.php'); ?>
-
-  <?php comments_template(); ?>
-
+  <div id="feedbacks">
+	<?php comments_template(); ?>
+  </div>
   <div class="navigation">
     <div class="align-right"><?php next_post_link('<span>[newer]</span> %link ') ?></div>
     <div class="align-left"><?php previous_post_link(' %link <span>[older]</span>') ?></div>
