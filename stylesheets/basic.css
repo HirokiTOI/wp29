@@ -139,7 +139,8 @@ h1 a:hover {
 }
 
 #about a:hover {
-  color: #fff;
+  color: #000;
+  background:#ffff00;
 }
 
 #social-links {
