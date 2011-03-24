@@ -31,7 +31,7 @@ bloginfo('name'); ?></title>
     else: echo '
     <meta property="og:title" content="Hioki\'s Weblog" />
     <meta property="og:type" content="blog" />
-    <meta property="og:description" content="“sˆä‚Ð‚¨‚«‚Ì–Ï‘z" />
+    <meta property="og:description" content="éƒ½äº•ã²ãŠãã®å¦„æƒ³" />
     <meta property="og:url" content="http://hiokota.com/hioki/" />';
     endif; ?>
 
@@ -69,7 +69,7 @@ bloginfo('name'); ?></title>
 		</span>
 		<h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
 		<div id="about">
-			<!-- Aboutƒy[ƒW‚ÌURL‚ðŽw’è -->
+			<!-- Aboutãƒšãƒ¼ã‚¸ã®URLã‚’æŒ‡å®š -->
 			<a href="/hioki/about/" title="About">About me.</a>
 		</div>
 		<div id="description">

@@ -129,10 +129,8 @@ h1 a:hover {
   right: 300px;
 
   -moz-border-radius: 30px;
-  -webkit-border-top-right-radius: 30px;
-  -webkit-border-bottom-right-radius: 5px;
-  border-top-right-radius: 30px;
-  border-bottom-right-radius: 5px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
   background:#000;
   color:#aaa;
   padding: 2px;
@@ -216,7 +214,7 @@ h1 a:hover {
   -moz-border-radius-topright: 100px;
   -moz-border-radius-bottomright: 600px;
   border-top-right-radius: 100px;
-  border-bottom-right-radius: 60px;
+  border-bottom-right-radius: 600px;
   }
 
 .page-title {
