@@ -80,7 +80,7 @@ bloginfo('name'); ?></title>
           <li id="social-link-twitter"   class="social-link"><a href="http://twitter.com/noize_hioki"           title="">Twitter</a></li>
 		  <li id="social-link-tumblr"    class="social-link"><a href="http://hioki.tumblr.com/"           title="">Tumblr</a></li>
           <li id="social-link-facebook"  class="social-link"><a href="http://www.facebook.com/hiroki.toi"   title="">Facebook</a></li>
-		  <li id="social-link-flickr"    class="social-link"><a href="http://www.flickr.com/photos/noize_hioki" title="">Flickr</a></li> -->
+		  <li id="social-link-flickr"    class="social-link"><a href="http://www.flickr.com/photos/noize_hioki" title="">Flickr</a></li>
 		  <!-- <li id="social-link-delicious" class="social-link"><a href="http://delicious.com/june29"         title="">Delicious</a></li> -->
           <li id="social-link-github"    class="social-link"><a href="http://github.com/HirokiTOI"            title="">GitHub</a></li>
 		  <!-- <li id="social-link-lastfm"    class="social-link"><a href="http://www.last.fm/user/june29"      title="">Last.fm</a></li> -->
