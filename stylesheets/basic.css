@@ -28,7 +28,7 @@ h1 a:hover {
 #header {
   position: relative;
   padding: 10px;
-  margin-top:0px;
+  margin-top:5px;
   margin-right:auto;
   background-color: #cc3388;
   -webkit-border-top-right-radius: 600px;
@@ -63,6 +63,8 @@ h1 a:hover {
   left: 138px;
   padding: 1px 30px 1px 4px;
   z-index:3;
+  min-height: 62px;
+  min-width: 325px;
   background-color: #7f7f7f;
   background: -webkit-gradient(linear, left top, left bottom, from(#0a0a0a), to(#7f7f7f));
   background: -moz-linear-gradient(top, #0a0a0a, #7f7f7f);
@@ -81,6 +83,7 @@ h1 a:hover {
   background: -webkit-gradient(linear, left top, left bottom, from(#949494), to(#d9d9d9));
   background: -moz-linear-gradient(top, #949494, #d9d9d9);
   width: 635px;
+  min-height: 25px;
   padding: 1px 8px 1px 4px;
   position: absolute;
   top: 82px;
@@ -149,6 +152,7 @@ h1 a:hover {
   top: 114px;
   left: 138px;
   width: 635px;
+  min-height: 25px;
   padding: 1px 8px 1px 4px;
   background-color: #fcfcfc;
   background: -webkit-gradient(linear, left top, left bottom, from(#dfdfdf), to(#fcfcfc));
@@ -208,7 +212,7 @@ h1 a:hover {
   margin-top:5px;
   margin-bottom:20px;
   margin-left:0px;
-  padding: 15px 60px 500px 15px;
+  padding: 15px 60px 15px 15px;
   background-color: #000;
   -webkit-border-top-right-radius: 100px;
   -webkit-border-bottom-right-radius: 600px;

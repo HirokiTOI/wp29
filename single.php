@@ -17,13 +17,13 @@
     <div class="align-right"><?php next_post_link('<span>[newer]</span> %link ') ?></div>
     <div class="align-left"><?php previous_post_link(' %link <span>[older]</span>') ?></div>
   </div>
-
+  
   <?php endwhile; else: ?>
 
   <p>Sorry, no posts matched your criteria.</p>
 
   <?php endif; ?>
-
+<?php include( TEMPLATEPATH . '/PlaySpace.php' ); ?>
 </div>
 
 <?php get_footer(); ?>

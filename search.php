@@ -28,7 +28,7 @@
     <div class="no-result">Please try other word.</div>
 
   <?php endif; ?>
-
+  <?php include( TEMPLATEPATH . '/PlaySpace.php' ); ?>
   </div>
 
 <?php get_footer(); ?>

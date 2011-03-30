@@ -42,6 +42,8 @@
     <h2 class="center">Not Found</h2>
     <?php include (TEMPLATEPATH . '/searchform.php'); ?>
     <?php endif; ?>
+    
+  <?php include( TEMPLATEPATH . '/PlaySpace.php' ); ?>  
   </div>
 
 <?php get_footer(); ?>

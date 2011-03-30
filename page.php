@@ -7,6 +7,7 @@
       <?php include (TEMPLATEPATH . '/entry.php'); ?>
 
     <?php endwhile; endif; ?>
+	<?php include( TEMPLATEPATH . '/PlaySpace.php' ); ?>
   </div>
 
 <?php get_footer(); ?>
